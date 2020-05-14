@@ -84,9 +84,9 @@ def createDataset():
 	np.save('productvalNormalImages.npy',valImages)
 	np.save('productvalNormalLabels.npy',valLabels)
 	
-	# return images, labels
+	return images, labels
 
-createDataset()
+#createDataset()
 
 
 
