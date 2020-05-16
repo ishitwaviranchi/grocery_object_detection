@@ -8,9 +8,8 @@ import math
 
 
 #datasetDirectory = './GroceryDataset_part1/ProductImagesFromShelves/'
-NO_CLASSES = 11
 
-def getImageFileAndLabels(datasetDirectory):
+def getImageFileAndLabels(datasetDirectory, NO_CLASSES):
 	labels = []
 	imageFiles = []
 	for i  in range(NO_CLASSES):
